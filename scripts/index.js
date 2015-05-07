@@ -3,7 +3,7 @@
 		var widgetIframe 	= document.getElementById('sc-widget');
 		var widget      	= SC.Widget(widgetIframe);
 		var songStart	= 55000;
-		var songEnd		= 65000;
+		var songEnd		= 58000;
 		var randStart	= 55000;
 		var randEnd		= 65000;
 		var url2 			= 'http://api.soundcloud.com/users/1539950/favorites';
@@ -80,6 +80,7 @@
 			  });
 		});
 		
+		/*
 		var randomSnippet = document.querySelector('.randSnip');
 		addEvent(randomSnippet, 'click', function(e) {			
 			widget.bind(SC.Widget.Events.READY, function() {
@@ -106,4 +107,5 @@
 				);
 			  });
 		});
+		*/
 	}());

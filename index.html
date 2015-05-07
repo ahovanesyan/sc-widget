@@ -7,18 +7,22 @@
 </head>
 
 <body>
-<iframe id="sc-widget" src="https://w.soundcloud.com/player/?url=http://soundcloud.com/ahovanesyan/likes" width="100%" height="465" scrolling="no" frameborder="no"></iframe>
-	<div class="actions">
-		<input class="urlInput" placeholder="Enter SoundCloud URL of the track/set/user" type="text">
+<div class="container">
+	<div class="widgetContainer">
+		<iframe id="sc-widget" src="https://w.soundcloud.com/player/?url=http://soundcloud.com/ahovanesyan/likes" width="100%" height="465" scrolling="no" frameborder="no"></iframe>
+	</div>	
+	<div class="actionsContainer">
+		<input class="urlInput" placeholder="Enter SoundCloud URL of the track." type="text">
 		<button class="reload">Reload</button>
 		<dl class="actionButtons">
 			<dd><button class="seekTo">Seek <input type="text" value="50000" size="10" maxlength="10" /></button></dd>
 			<dd><button class="preview">Preview</button></dd>
-			<dd><button class="randSnip">Random Snippet</button></dd>
 			<dd><button class="prev">Prev</button></dd>
 			<dd><button class="next">Next</button></dd>
+			<dd><button class="randSong">Random Song</button></dd>
 		</dl>
     </div>
+</div>	
 	<script type="text/javascript" src="scripts/index.js"></script>
 </body>
 
